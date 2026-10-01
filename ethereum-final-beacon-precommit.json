@@ -1,0 +1,115 @@
+{
+  "schema": "nullark-veil-final-beacon-precommit-v1",
+  "status": "PRECOMMIT_PENDING_FUTURE_BLOCK",
+  "chainId": 1,
+  "sourceKind": "future-ethereum-mainnet-finalized-block-hash",
+  "selectionRule": "max-observed-head-plus-fixed-offset",
+  "targetOffsetBlocks": 300,
+  "targetBlockNumber": 26094206,
+  "targetBlockHex": "0x18e2a7e",
+  "selectedAt": "2026-10-01T00:34:06.191Z",
+  "numIterationsExp": 10,
+  "terminalContributionsCompletedBeforeSelection": true,
+  "targetSelectedBeforeSourceBlock": true,
+  "rpcObservations": [
+    {
+      "rpcUrl": "https://ethereum-rpc.publicnode.com",
+      "rpcHost": "ethereum-rpc.publicnode.com",
+      "chainId": 1,
+      "headBlockNumber": 26093906,
+      "headBlockHex": "0x18e2952",
+      "observedAt": "2026-10-01T00:34:04.200Z",
+      "httpDate": "Thu, 01 Oct 2026 00:34:05 GMT"
+    },
+    {
+      "rpcUrl": "https://eth.drpc.org",
+      "rpcHost": "eth.drpc.org",
+      "chainId": 1,
+      "headBlockNumber": 26093906,
+      "headBlockHex": "0x18e2952",
+      "observedAt": "2026-10-01T00:34:04.200Z",
+      "httpDate": "Thu, 01 Oct 2026 00:34:05 GMT"
+    },
+    {
+      "rpcUrl": "https://rpc.flashbots.net",
+      "rpcHost": "rpc.flashbots.net",
+      "chainId": 1,
+      "headBlockNumber": 26093906,
+      "headBlockHex": "0x18e2952",
+      "observedAt": "2026-10-01T00:34:04.201Z",
+      "httpDate": "Thu, 01 Oct 2026 00:34:06 GMT"
+    }
+  ],
+  "futureChecks": [
+    {
+      "rpcUrl": "https://ethereum-rpc.publicnode.com",
+      "observedAt": "2026-10-01T00:34:06.191Z",
+      "httpDate": "Thu, 01 Oct 2026 00:34:06 GMT",
+      "targetBlockMissing": true
+    },
+    {
+      "rpcUrl": "https://eth.drpc.org",
+      "observedAt": "2026-10-01T00:34:06.192Z",
+      "httpDate": "Thu, 01 Oct 2026 00:34:06 GMT",
+      "targetBlockMissing": true
+    },
+    {
+      "rpcUrl": "https://rpc.flashbots.net",
+      "observedAt": "2026-10-01T00:34:06.193Z",
+      "httpDate": "Thu, 01 Oct 2026 00:34:06 GMT",
+      "targetBlockMissing": true
+    }
+  ],
+  "seedDerivation": {
+    "algorithm": "SHA-256",
+    "domain": "nullark-groth16-phase2-final-beacon-v1",
+    "encoding": "ASCII domain + NUL + ASCII role + NUL + raw 32-byte block hash"
+  },
+  "completionDecisionSha256": "sha256:7f3b169dc1b3f8a863d57211bc448e3fe2eb0bdebeeea0494fe5946dded99ae3",
+  "originalPlanSha256": "sha256:383349dd8651c1276ea195075219fe681d56edcbf6ee5f303cb0d7d575deb9fb",
+  "reviewedManifestSha256": "sha256:02f85ad793868d0da069d2ac4ce052d3360abb83a10489debbd329aa9e943dda",
+  "custodianRecordSha256": "sha256:b8f50256fba134931b08b1db3819154e05447119874ab1a4532f6456ec9b1b86",
+  "verifiedPrefixReceiptSha256": "sha256:40ebff8f7cf761aba78ec5c5fd8d40fc068362095cc6d110df19c0dbe59b6713",
+  "frozenInputsSha256": "sha256:86c345a6a954406faf31fc70a69b99927bb3575a3d1918e36decc6b5ff0e3e5c",
+  "compileManifestSha256": "sha256:f55ab3fc42597abe5036d06e77d1505649aa6333b89855b65e495a6ad1145439",
+  "phase1": {
+    "bytes": 151078040,
+    "sha256": "sha256:6b662a324867139fb1a20a324d90b6ff61856dfb23f59326909f14b0e2483ae0"
+  },
+  "runtime": {
+    "manifestSha256": "sha256:ac0c0c83d97270510d72f2d45a9de94213a9130bbae212e7d881f4af6a31ff75",
+    "cliSha256": "sha256:6d787e37a4d1a2c6dd6032dadca09c0b3b007d4d4578bb6232a98136555d051a",
+    "nodeSha256": "sha256:ab438273be55abdb5b624a7acdfdeb12c49bf3d9c3ac3df626ad5bb1fddb41ee"
+  },
+  "contributionRounds": {
+    "recordCount": 8,
+    "operationCount": 72,
+    "records": [
+      { "sequence": 1, "sha256": "sha256:5db4bfcf0df2d384d8e15f2a222d22489f75383456f59bd2b82ecd59c10838a3" },
+      { "sequence": 2, "sha256": "sha256:64ad9c7be7d6e4822bfc450c4dcb99b9810558e51132d167e8e0ac030700d11f" },
+      { "sequence": 3, "sha256": "sha256:d549eb9df6ecf5575bbf1da015ccf19ff263cb46a4e3da3bc80b1479d4a9b914" },
+      { "sequence": 4, "sha256": "sha256:db845ad104b059e865f222b5c0e0f7a90a8379ce704c3f2b3a33d595983c0372" },
+      { "sequence": 5, "sha256": "sha256:da8c79c524554913e29448d0a5da0dc0aec8bb8886b73f9cada6a8a06f514edd" },
+      { "sequence": 6, "sha256": "sha256:8b652b327b43842585cf02148ca4ed0fc43928e65066fca03b69f37f7e1136e5" },
+      { "sequence": 7, "sha256": "sha256:ae729b5909fd1646563cef7717f8a5bc284f5943206a441c15f419ad1652d2f0" },
+      { "sequence": 8, "sha256": "sha256:414da291671b0ae3015e33521ee94f9081755b7aa1739548539d7b437495aa7f" }
+    ],
+    "finalOutputs": {
+      "funding": "sha256:2f9ea1ebec629267af5be40cd03e3081a871cdbe0e6392a668366e83bf669644",
+      "swap": "sha256:4e0a0b55b0f470df0669d1c6a8407d166416d709487924863bc47bac24a750da",
+      "exit": "sha256:d93edd3ee26d5359bd8ad3f1e8bbe73e346b5fdfe1ac33ece356a1080dd0a99f",
+      "nft-buy": "sha256:65045f930fc2ccc6b94ebbb101ef183a65b090afef3fabac527454f6eef5533c",
+      "nft-sale": "sha256:a8f7ee50d98be381da22d6c26c0c47a0a848d58b988e8d6e4ef5daefdb1b792a",
+      "nft-withdrawal": "sha256:cbf95a2cf52fa559b787d79e63c485170b58c17cccbb3058bbadce1254bb3158",
+      "consolidation": "sha256:5c94418c3451ff79774d498d43478b9c93fe14cc3a454b987624a2c199059a05",
+      "internal-seller": "sha256:95140760e387f39d39cf2d3a4d577ac3bc503e336aa4442e27aa357d97c67b83",
+      "internal-buyer": "sha256:12907ad18b222b0dfe9e028a21543f77f64c1d0e5caa6f1607d106ec4a2bc6b1"
+    }
+  },
+  "cleanupUnconfirmedStages": [7],
+  "independentTrustDomainsAdded": false,
+  "evidenceScope": "Eight accepted contribution records and nine terminal key hashes; prior canonical prefix replay checked 9 initial keys, 81 key stages and 8 records. Same host/operator; no secret-erasure proof. RPC/GitHub provenance and before-target publication remain external assumptions.",
+  "beaconProcedureAuthorized": true,
+  "promotionAuthorized": false,
+  "deploymentAuthorized": false
+}
